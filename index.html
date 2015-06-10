@@ -5,10 +5,10 @@
     <title>Fedora Datastream Editor</title>
 </head>
 <body>
-<form action="index.html" enctype="multipart/form-data" method="post">
-    Var1:<br/><input type="text" name="var1" value=""/><br/>
-    Var2:<br/><input type="text" name="var2" value=""/><br/>
-    File to upload:<br/><input type="file" name="fileUpload" value=""/><br/>
+<form action="upload.php" enctype="multipart/form-data" method="post">
+    <label for="var1">Var1:</label><br/><input type="text" id="var1" name="var1" value=""/><br/>
+    <label for="var2">Var2:</label><br/><input type="text" id="var2" name="var2" value=""/><br/>
+    <label for="fileUpload">File to upload:</label><br/><input type="file" id="fileUpload" name="fileUpload" value=""/><br/>
     <p><input type="submit" name="submit" value="Upload File"></p>
 </form>
 </body>
